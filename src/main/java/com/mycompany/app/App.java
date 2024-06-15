@@ -1,9 +1,10 @@
 package com.mycompany.app;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
 
 /**
  * Hello world!
  */
-public class App {
+public class App extends SpringBootServletInitializer{
 
     private static final String MESSAGE = "Hello World!";
 
@@ -15,5 +16,9 @@ public class App {
 
     public String getMessage() {
         return MESSAGE;
+    }
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(Application.class);
     }
 }
