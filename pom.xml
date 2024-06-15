@@ -71,6 +71,12 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
-    </plugins>
-  </build>
-</project>
+      <!-- Add Cargo Maven2 plugin for deployment to Tomcat -->
+      <plugin>
+        <groupId>org.codehaus.cargo</groupId>
+        <artifactId>cargo-maven2-plugin</artifactId>
+        <version>1.9.9</version>
+        <configuration>
+          <deployables>
+            <deployable>
+              <groupId>com.mycompany.app</groupId
