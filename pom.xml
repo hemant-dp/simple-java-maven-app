@@ -17,6 +17,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-tomcat</artifactId>
+      <version>3.1.2</version> <!-- Added the version here -->
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -24,7 +25,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <build>
-    <finalName>${simple-java-maven-app}</finalName>
+    <finalName>my-app</finalName> <!-- Corrected the final name -->
     <pluginManagement>
       <plugins>
         <plugin>
