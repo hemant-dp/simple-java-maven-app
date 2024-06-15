@@ -1,5 +1,7 @@
 package com.mycompany.app;
 
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
 /**
  * Hello world!
  */
