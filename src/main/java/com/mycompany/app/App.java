@@ -1,11 +1,9 @@
 package com.mycompany.app;
 
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-
 /**
  * Hello world!
  */
-public class App extends SpringBootServletInitialize{
+public class App{
 
     private static final String MESSAGE = "Hello World!";
 
